@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 renderScores();
 time();
 $(".save").on("click", function () {
@@ -55,3 +57,5 @@ function renderScores() {
     localStorage.getItem(dataIndex);
 
 }
+
+});
